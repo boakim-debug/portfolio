@@ -416,3 +416,18 @@ body.dark-mode .tag {
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.15);
 }
+/* Project Details Modal Text Style */
+.project-details-text {
+    color: #333333; /* 기본 라이트 모드: 어두운 글자색 */
+  }
+  
+  /* 다크 모드일 때 모달창 내부 글자 및 배경 대응 */
+  body.dark-mode .project-details-text {
+    color: #e5e7eb; /* 다크 모드: 또렷하게 보이는 연한 회색/흰색 글자 */
+  }
+  
+  /* 모달 컨텐츠 박스가 다크모드일 때 어두운 배경을 가지도록 보장 */
+  body.dark-mode .modal-content {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }

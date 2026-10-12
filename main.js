@@ -83,7 +83,7 @@ document.querySelectorAll('project-card').forEach(card => {
             commentsTarget.innerHTML = `
                 <div class="project-details" style="margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; text-align: left;">
                     <h3 style="color: var(--highlight-color); font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 0.8rem; text-transform: uppercase;">PROJECT DETAILS</h3>
-                    <div style="line-height: 1.7; color: #333; font-size: 0.95rem;">${detailsText}</div>
+                    <div style="line-height: 1.7; font-size: 0.95rem;">${detailsText}</div>
                 </div>
             `;
         }
